@@ -1,4 +1,4 @@
-# multiNLI_encoder
+# Residual Connected Sentence Encoder
 This is a repo for Residual-connected sentence encoder for NLI.
 
 Try to follow the instruction below to successfully run the experiment.
