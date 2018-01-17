@@ -32,7 +32,7 @@ pip install -U spacy
 python -m spacy download en
 ```
 
-Optionally, you can try to match the pip freeze file below to match experiment environment.
+Optionally, you can try to match the pip freeze file below to set up the same experiment environment.
 ```
 certifi==2017.11.5
 chardet==3.0.4
@@ -124,3 +124,7 @@ Remember to change the bracketed part to the actual file name on your computer.
 python model/res_encoder.py eval (PATH_OF_YOUR_MODEL) dev # for evaluation on dev set
 python model/res_encoder.py eval (PATH_OF_YOUR_MODEL) test # for evaluation on test set
 ```
+
+Pretrained Model:
+We also provide a link to download the [*pretrained model*](https://www.dropbox.com/s/raa29iwpkv2xldh/pretrained_model_dev%2887.00%29?dl=0).
+After downloading the pretrained model, you can run the script in step 7 for evaluation, however you need to keep the default parameter for pytorch to load the pretrained model.
