@@ -1,5 +1,16 @@
 # Residual Connected Sentence Encoder
 This is a repo for Residual-connected sentence encoder for NLI.
+[https://arxiv.org/abs/1708.02312](https://arxiv.org/abs/1708.02312)  
+If you use this code as part of published research, please cite the following paper.
+
+```
+@article{nie2017shortcut,
+  title={Shortcut-stacked sentence encoders for multi-domain inference},
+  author={Nie, Yixin and Bansal, Mohit},
+  journal={arXiv preprint arXiv:1708.02312},
+  year={2017}
+}
+```
 
 Try to follow the instruction below to successfully run the experiment.
 
